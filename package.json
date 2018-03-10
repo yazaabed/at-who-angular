@@ -1,6 +1,6 @@
 {
   "name": "@yazanaabed/at-who-angular",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "wrapper for At.js that add mentions autocomplete to your application with angular component for using it on any angular 1 projects",
   "main": "index.js",
   "scripts": {

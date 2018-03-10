@@ -1,0 +1,19 @@
+{
+  "name": "at-who-angular",
+  "version": "1.0.0",
+  "description": "wrapper for At.js that add mentions autocomplete to your application with angular component for using it on any angular 1 projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YazanAabeed/at-who-angular.git"
+  },
+  "author": "YazanAabeed",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YazanAabeed/at-who-angular/issues"
+  },
+  "homepage": "https://github.com/YazanAabeed/at-who-angular#readme"
+}

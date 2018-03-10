@@ -117,9 +117,13 @@ class AppController {
 * Options passed to this component
 ```javascript
 {
+    // Name for the input or field
     name: '@',
+    // Class used to attach on element
     class: '<',
+    // Is it an text area or simple input don't pass this if you want input
     isTextArea: '<',
+    // What is the trigger char on the above example its '@'
     character: '<',
     popupHeader: '<',
     popUpItemTemplate: '<',
@@ -173,3 +177,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 * This is my first component on this field to help people integrate with autocomplete At.js easily for AngularJS projects.
+* I love to hear any comments to learn from people on this community.

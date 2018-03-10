@@ -1,0 +1,29 @@
+<div class="at-who"
+     ng-class="::AtWho.class">
+
+    <div class="at-who-wrapper">
+        <div class="editable-content"
+             ng-class="{
+                'textarea': AtWho.isTextArea,
+                'input-field': !AtWho.isTextArea,
+                'disabled': AtWho.disabledField
+             }"
+             placeholder="{{AtWho.placeHolder || 'Message Body'}}"
+             contentEditable="{{(AtWho.disabledField) ? false : true}}">
+        </div>
+    </div>
+
+    <input type="text"
+           class="hidden"
+           ng-disabled="AtWho.disabledField"
+           ng-if="!AtWho.isTextArea"
+           ng-model="AtWho.ngModel"
+           name="{{AtWho.name}}" />
+
+    <textarea class="hidden"
+              ng-disabled="AtWho.disabledField"
+              ng-if="AtWho.isTextArea"
+              ng-model="AtWho.ngModel"
+              name="{{AtWho.name}}">
+    </textarea>
+</div>

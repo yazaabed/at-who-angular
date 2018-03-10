@@ -1,0 +1,36 @@
+.at-who .at-who-wrapper .editable-content {
+    background-color: #ffffff;
+}
+
+.at-who .at-who-wrapper .editable-content.input-field {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.at-who .at-who-wrapper .editable-content.input-field br {
+    display:none;
+}
+
+.at-who .at-who-wrapper .editable-content.textarea {
+    height: auto;
+    min-height: 90px;
+}
+
+.at-who .at-who-wrapper .editable-content .highlight-selected-value {
+    background-color: #dce6f8;
+    color: rgb(29, 33, 41);
+}
+
+.at-who .at-who-wrapper .editable-content:empty:before {
+    content: attr(placeholder);
+    display: block;
+    color: #cccccc;
+}
+
+.at-who .at-who-wrapper .editable-content.disabled {
+    background-color: #ebebe4;
+}
+
+.at-who .hidden {
+    display: none;
+}

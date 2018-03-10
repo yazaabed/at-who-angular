@@ -1,0 +1,37 @@
+<div class='app-container'>
+    <h1>Welcome to At-Who AngularJs wrapper using components</h1>
+    <div>
+        <at-who ng-model="AppComponent.item.title"
+                class="input-container"
+                name="subject"
+                character="'@'"
+                insert-item="'${name}'"
+                search-key="'name'"
+                inserted-key="'code'"
+                pop-up-item-template="'<li>${name}</li>'"
+                data="AppComponent.smartFields"
+                on-model-changed="AppComponent.onTitleChanged(value)"
+                place-holder="'Message Title'"
+                hide-brackets="true"></at-who>
+    </div>
+
+    <br />
+    <br />
+    <br />
+
+    <div>
+        <at-who ng-model="AppComponent.item.subject"
+                class="textarea-container"
+                is-text-area="true"
+                name="subject"
+                character="'@'"
+                insert-item="'${name}'"
+                search-key="'name'"
+                inserted-key="'code'"
+                pop-up-item-template="'<li>${name}</li>'"
+                data="AppComponent.smartFields"
+                place-holder="'Message Body'"
+                on-model-changed="AppComponent.onSubjectChanged(value)"
+                hide-brackets="true"></at-who>
+    </div>
+</div>

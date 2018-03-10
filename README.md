@@ -23,6 +23,7 @@ This project done using AngularJS after need it to wrapp the autocomplete At.js 
 - webpack
 - webpack-cli
 - webpack-dev-server
+- jQuery
 - @yazanaabed/dommutationobserver
 
 ### Examples
@@ -166,9 +167,8 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Yazan Aabed** - *Initial work* - [AtWhoAngularJS](https://github.com/YazanAabeed/at-who-angular)
-
-See also the list of [contributors](https://github.com/YazanAabeed/at-who-angular/graphs/contributors) who participated in this project.
+* **Yazan Aabed**
+* See also the list of [contributors](https://github.com/YazanAabeed/at-who-angular/graphs/contributors) who participated in this project.
 
 ## License
 

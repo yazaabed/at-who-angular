@@ -1,0 +1,15 @@
+.app-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.app-container h1 {
+    text-align: center;
+}
+
+.app-container .textarea-container .textarea,
+.app-container .input-container .input-field {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
